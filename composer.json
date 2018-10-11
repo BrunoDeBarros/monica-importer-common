@@ -1,0 +1,25 @@
+{
+    "name": "brunodebarros/monica-importer-common",
+    "description": "Interfaces and functionality common to all Monica Importers.",
+    "type": "library",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Bruno Moreira De Barros",
+            "email": "bruno@terraduo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brunodebarros\\Monica\\Importer\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
